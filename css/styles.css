@@ -1,0 +1,128 @@
+:root {
+  --color-primary: #37474F;
+  --color-primary-rgb: 55,71,79;
+  --color-primary-contrast: #ffffff;
+  --color-primary-contrast-rgb: 255,255,255;
+  --color-primary-shade: #303e46;
+  --color-primary-tint: #4b5961;
+
+  --color-secondary: #0087FF;
+  --color-secondary-rgb: 0,135,255;
+  --color-secondary-contrast: #ffffff;
+  --color-secondary-contrast-rgb: 255,255,255;
+  --color-secondary-shade: #0077e0;
+  --color-secondary-tint: #1a93ff;
+
+  --color-tertiary: #677780;
+  --color-tertiary-rgb: 103,119,128;
+  --color-tertiary-contrast: #ffffff;
+  --color-tertiary-contrast-rgb: 255,255,255;
+  --color-tertiary-shade: #5b6971;
+  --color-tertiary-tint: #76858d;
+
+  --color-success: #10dc60;
+  --color-success-rgb: 16,220,96;
+  --color-success-contrast: #ffffff;
+  --color-success-contrast-rgb: 255,255,255;
+  --color-success-shade: #0ec254;
+  --color-success-tint: #28e070;
+
+  --color-warning: #ffce00;
+  --color-warning-rgb: 255,206,0;
+  --color-warning-contrast: #ffffff;
+  --color-warning-contrast-rgb: 255,255,255;
+  --color-warning-shade: #e0b500;
+  --color-warning-tint: #ffd31a;
+
+  --color-danger: #f04141;
+  --color-danger-rgb: 245,61,61;
+  --color-danger-contrast: #ffffff;
+  --color-danger-contrast-rgb: 255,255,255;
+  --color-danger-shade: #d33939;
+  --color-danger-tint: #f25454;
+
+  --color-dark: #222428;
+  --color-dark-rgb: 34,34,34;
+  --color-dark-contrast: #ffffff;
+  --color-dark-contrast-rgb: 255,255,255;
+  --color-dark-shade: #1e2023;
+  --color-dark-tint: #383a3e;
+
+  --color-medium: #989aa2;
+  --color-medium-rgb: 152,154,162;
+  --color-medium-contrast: #ffffff;
+  --color-medium-contrast-rgb: 255,255,255;
+  --color-medium-shade: #86888f;
+  --color-medium-tint: #a2a4ab;
+
+  --color-light: #f4f5f8;
+  --color-light-rgb: 244,244,244;
+  --color-light-contrast: #000000;
+  --color-light-contrast-rgb: 0,0,0;
+  --color-light-shade: #d7d8da;
+  --color-light-tint: #f5f6f9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--color-primary-contrast);
+    min-height: 100%;
+    min-width: 100%;
+    position: relative;
+    font-size: .9em;
+    padding-top: 5.5em; /* The size of the fixed header */
+    padding-bottom: 4.5em;
+}
+
+.container-fluid, .row {
+    margin: 0;
+    padding: 0;
+}
+
+.section-content {
+    background-color: var(--color-primary-contrast);
+    margin: 0;
+    min-width: 100%;
+}
+
+::-webkit-scrollbar
+{
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+/* 
+    ##Device = Most of Smartphones Mobiles (Portrait)
+*/
+@media only screen and (max-width: 425px) {
+	.navbar-toggler {
+		font-size: 1em;
+	}
+}
+
+/* 
+    ##Device = Small Screen Smartphones Mobiles (Portrait)
+    originally 375px  but fixed to 385px cause name wont fit
+    in navbar in 385px devices
+*/
+@media only screen and (max-width: 385px) {
+    html {
+        font-size: .7em;
+    }
+}
