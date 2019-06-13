@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#37474f">
+  <title>Carlos Alberto Arroyo Martínez</title>
+  <meta name="description"
+    content="Hola, mi nombre es Carlos, soy un Ingeniero en Informática, egresado del ITSUR. Apasionado por el desarrollo de aplicaciones web y móviles, la tecnología y los videojuegos. Cuento con conocimientos en diversas tecnologías web y móviles, bases de datos relacionales y alguno que otro Framework. Tengo 24 años y actualmente radico en la cuidad de Apaseo el Alto, Guanajuato.">
+
+  <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>css/fontawesome-all.min.css">
+  <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>css/styles.css">
+
+  <!-- Start Single Page Apps for GitHub Pages -->
+  <script type="text/javascript">
+    // Single Page Apps for GitHub Pages
+    // https://github.com/rafrex/spa-github-pages
+    // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
+    // ----------------------------------------------------------------------
+    // This script checks to see if a redirect is present in the query string
+    // and converts it back into the correct url and adds it to the
+    // browser's history using window.history.replaceState(...),
+    // which won't cause the browser to attempt to load the new url.
+    // When the single page app is loaded further down in this file,
+    // the correct url will be waiting in the browser's history for
+    // the single page app to route accordingly.
+    (function(l) {
+      if (l.search) {
+        var q = {};
+        l.search.slice(1).split('&').forEach(function(v) {
+          var a = v.split('=');
+          q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+        });
+        if (q.p !== undefined) {
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + (q.p || '') +
+            (q.q ? ('?' + q.q) : '') +
+            l.hash
+          );
+        }
+      }
+    }(window.location))
+  </script>
+  <!-- End Single Page Apps for GitHub Pages -->
+  
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but vue-portfolio doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+
+  <!-- Scripts load -->
+  <script src="<%= BASE_URL %>js/jquery-3.3.1.min.js"></script>
+  <script src="<%= BASE_URL %>js/bootstrap.min.js"></script>
+  <script src="<%= BASE_URL %>js/app.js"></script>
+
+</body>
+
+</html>

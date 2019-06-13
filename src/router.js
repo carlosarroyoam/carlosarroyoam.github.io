@@ -1,18 +1,18 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import AboutMe from '@/views/AboutMe'
-import ContactMe from '@/views/ContactMe'
-import Portfolio from '@/views/Portfolio'
-import Project from '@/views/Project'
-import Resume from '@/views/Resume'
-import PageNotFound from '@/views/PageNotFound'
+import AboutMe from './views/AboutMe'
+import ContactMe from './views/ContactMe'
+import Portfolio from './views/Portfolio'
+import Project from './views/Project'
+import Resume from './views/Resume'
+import PageNotFound from './views/PageNotFound'
 
 Vue.use(Router)
 
 export default new Router({
-  base: '/portfolio',
   mode: 'history',
+  base: process.env.BASE_URL,
   routes: [
     {
       path: '/',

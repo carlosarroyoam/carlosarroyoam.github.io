@@ -30,7 +30,7 @@
               <div class="d-block">
                 <i class="fas fa-file-alt d-block mx-auto" style="font-size: 5em;"></i>
               </div>
-              <span class="d-block mt-3" style="color: #212529;">Mi curriculum vitae</span>
+              <span class="d-block mt-3">Mi curriculum vitae</span>
             </router-link>
           </div>
 
@@ -43,7 +43,7 @@
               <div class="d-block">
                 <i class="fab fa-linkedin" style="font-size: 5em;"></i>
               </div>
-              <span class="d-block mt-3" style="color: #212529;">
+              <span class="d-block mt-3">
                 Mi perfil en
                 <strong>LinkedIn</strong>
               </span>
@@ -59,7 +59,7 @@
               <div class="d-block">
                 <i class="fab fa-github-square" style="font-size: 5em;"></i>
               </div>
-              <span class="d-block mt-3" style="color: #212529;">
+              <span class="d-block mt-3">
                 Mi perfil en
                 <strong>GitHub</strong>
               </span>
@@ -106,10 +106,18 @@ export default {
 
 .contact-card {
   padding: 1em;
-  background-color: #fff;
+  color: var(--color-secondary);
   border-radius: 0.25em;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
+}
+
+.contact-card a div {
+  color: var(--color-secondary);
+}
+
+.contact-card a span {
+  color: var(--color-dark-tint);
 }
 
 /* 

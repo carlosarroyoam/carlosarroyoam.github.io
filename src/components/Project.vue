@@ -30,7 +30,7 @@ export default {
 .project {
   margin: 1em;
   flex: 0 1 calc(33.33% - 2em);
-  background-color: rgb(71, 71, 71);
+  background-color: var(--color-dark);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -44,15 +44,15 @@ export default {
 }
 
 .proyect__description {
-  background-color: #fff;
+  background-color: var(--color-light);
   padding: 1em;
 }
 
 .technology__badge {
   padding: 0 1em;
   border-radius: 15px;
-  background-color: #3b86ff;
-  color: #fff;
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-contrast);
   font-size: 0.8em;
   font-weight: bold;
 }

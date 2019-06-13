@@ -99,9 +99,9 @@ export default {
 .card-aboutme {
   max-width: 100%;
   padding: 1.2em 4em;
-  background-color: #3b86ff;
+  background-color: var(--color-secondary);
   border-radius: 0.25rem;
-  color: #fff;
+  color: var(--color-secondary-contrast);
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
   display: grid;
   grid-gap: 1.5em;
@@ -149,7 +149,8 @@ export default {
 
 .technologies-card {
   padding: 1em;
-  background-color: #fff;
+  color: var(--color-dark-tint);
+  background-color: var(--color-dark-contrast);
   border-radius: 0.25em;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   display: block;
@@ -159,7 +160,7 @@ export default {
 .technologies-icon {
   margin-bottom: 0.3em;
   font-size: 3.5em;
-  color: #3b86ff;
+  color: var(--color-secondary);
   grid-area: icon;
   display: block;
 }

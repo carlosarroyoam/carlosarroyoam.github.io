@@ -29,6 +29,6 @@ export default {
   bottom: 0;
   left: 0;
   padding: 1em 0;
-  color: #707070;
+  color: var(--color-medium-shade);
 }
 </style>

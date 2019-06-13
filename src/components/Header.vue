@@ -62,7 +62,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .navbar {
-  background-color: #37474f;
+  background-color: var(--color-primary);
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -70,6 +70,11 @@ export default {
   width: 100%;
   z-index: 10;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Boostrapt classes ovewrited */
+.nav-link {
+  font-weight: 500;
 }
 
 .nav-item-button {
@@ -83,16 +88,16 @@ export default {
 .nav-item-button--text {
   padding-top: 1px;
   min-width: 100%;
-  color: #fff;
+  color: var(--color-primary-contrast);
   vertical-align: middle;
 }
 
 .nav-item-button__blue {
-  background-color: #3b86ff;
+  background-color: var(--color-secondary);
 }
 
 .nav-item-button--icon {
-  color: #fff;
+  color: var(--color-primary-contrast);
   margin-left: 0.3em;
   padding-top: 3px;
   font-size: 1.6em;
