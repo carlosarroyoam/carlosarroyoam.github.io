@@ -1,0 +1,36 @@
+{
+  "technical_skills": [
+    {
+      "title": "Back-end",
+      "icon": "server.svg",
+      "icon_alt": "Backend icon, a server illustration.",
+      "technologies": [
+        "Java",
+        "PHP",
+        "Laravel",
+        "SQL Databases",
+        "Web Services",
+        "Web Sockets"
+      ]
+    },
+    {
+      "title": "Front-end",
+      "icon": "desktop.svg",
+      "icon_alt": "Frontend icon, a desktop computer illustration.",
+      "technologies": [
+        "HTML5",
+        "JavaScript",
+        "CSS",
+        "Vue.js",
+        "jQuery",
+        "Bootstrap"
+      ]
+    },
+    {
+      "title": "Mobile",
+      "icon": "mobile.svg",
+      "icon_alt": "Mobile icon, a mobile device illustration.",
+      "technologies": ["Android Nativo", "Firebase", "SQLite"]
+    }
+  ]
+}

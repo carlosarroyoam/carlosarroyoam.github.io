@@ -1,0 +1,33 @@
+{
+  "name": "carlosarroyoam-portfolio",
+  "version": "1.0.0",
+  "description": "Hola, mi nombre es Carlos, soy un Ingeniero en Informática, egresado del ITSUR. Apasionado por el desarrollo de aplicaciones web y móviles, la tecnología y los videojuegos. Cuento con conocimientos en diversas tecnologías web y móviles, bases de datos relacionales y alguno que otro Framework. Tengo 24 años y actualmente radico en la cuidad de Apaseo el Alto, Guanajuato.",
+  "author": "carlosarroyoam",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt --hostname 0.0.0.0 --port 3000",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy:gh-pages": "nuxt generate && push-dir --dir=dist --remote=origin --branch=gh-pages --cleanup"
+  },
+  "dependencies": {
+    "nuxt": "^2.15.4"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^1.14.0",
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@nuxtjs/tailwindcss": "^3.4.3",
+    "autoprefixer": "^9.8.6",
+    "node-sass": "^4.14.1",
+    "nuxt-i18n": "^6.26.0",
+    "nuxt-purgecss": "^0.2.1",
+    "postcss": "^7.0.35",
+    "push-dir": "^0.4.1",
+    "sass": "^1.32.12",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.3.0",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
