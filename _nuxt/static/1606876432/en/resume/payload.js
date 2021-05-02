@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/resume", {data:[{}],fetch:[{isOpen:false}],mutations:void 0});
